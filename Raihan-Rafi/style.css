@@ -1,0 +1,85 @@
+/* Reset CSS */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling the navigation bar */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin-bottom: 15px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling the section */
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Styling the cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(33.333% - 40px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 15px 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
